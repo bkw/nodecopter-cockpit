@@ -53,8 +53,6 @@
                 window.document.location.port + '/navdata'
             ),
 
-            translation = document.querySelector('.translation'),
-
             navDataRenderer = function () {
                 if (!lastMessage) {
                     return;
