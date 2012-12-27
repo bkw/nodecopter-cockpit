@@ -1,0 +1,33 @@
+{
+  "name": "nodecopter-cockpit",
+  "version": "0.0.1",
+  "description": "cockpit view of nodecopter intruments",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bkw/nodecopter-cockpit.git"
+  },
+  "keywords": [
+    "drone",
+    "nodecopter",
+    "parrot",
+    "cockpit",
+    "browser",
+    "artificial horizon"
+  ],
+  "dependencies": {
+    "dronestream" : "1.0.2",
+    "ar-drone" : "0.0.5",
+    "express": "3.0.x",
+    "jade": "*",
+    "ws" : "~0.4.25"
+  },
+  "author": "Bernhard K. Weisshuhn <bkw@codingforce.com>",
+  "contributors": [
+    {
+      "name": "Benjamin Nortier",
+      "email": "bjnortier@gmail.com"
+    }
+  ],
+  "license": "BSD"
+}

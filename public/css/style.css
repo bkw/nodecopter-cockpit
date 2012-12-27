@@ -1,0 +1,22 @@
+.horizon {
+    opacity: 0.5;
+    position: absolute;
+    z-index: 3;
+}
+
+#dronestream canvas {
+    position: absolute;
+    z-index: 2;
+}
+
+.compass.clip {
+    top: 360px;
+}
+
+.gauge.battery {
+    z-index: 4;
+    position: absolute;
+    right: 50px;
+}
+
+
