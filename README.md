@@ -35,7 +35,12 @@ npm install
 
 # TODO
 
-The cockpit does not have any flight control yet. I'm hoping to add these later.
+* The cockpit does not have any flight control yet. I'm hoping to add these later.
+* Speed and altitude probably need adjusting.
+* The NWES-Heading of the compass is bogus and seems to depend on the heading that the drone was booted last.
+* The compass should not span more than 60° as this seems to be the camara ocular angle.
+
+Contributions welcome!
 
 # Demo Video
 
